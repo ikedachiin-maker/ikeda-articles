@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7/18(土)21時 JV無料セミナー｜現場の生の声を、直接聞ける場を用意しました</title>
+<meta name="description" content="実績ゼロ・人脈ゼロから初月125万円。その理由は「格上に引き上げてもらう」JV(他力)の使い方でした。7月18日(土)21時、ゼロから始めるJV完全攻略ロードマップを無料セミナーで公開します。">
+<meta property="og:title" content="7/18(土)21時 JV無料セミナー｜現場の生の声を、直接聞ける場を用意しました">
+<meta property="og:description" content="実績ゼロ・人脈ゼロから初月125万円。その理由は「格上に引き上げてもらう」JV(他力)の使い方でした。7月18日(土)21時、Zoom生中継・参加費無料・先着1,000名。">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --ink: #0E1330;
+    --ink-2: #171E44;
+    --ground: #F3F4FA;
+    --surface: #FFFFFF;
+    --text: #1B1F38;
+    --muted: #5A6183;
+    --gold: #A97F2E;
+    --gold-bright: #C79A45;
+    --hairline: rgba(20, 25, 55, 0.14);
+    --line-green: #06C755;
+    --font-serif: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", serif;
+    --font-sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", system-ui, sans-serif;
+    --maxw: 44rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0A0E22;
+      --surface: #131A3A;
+      --text: #ECEBF4;
+      --muted: #A9AECC;
+      --gold: #D8B25E;
+      --gold-bright: #ECC978;
+      --hairline: rgba(216, 178, 94, 0.20);
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #F3F4FA;
+    --surface: #FFFFFF;
+    --text: #1B1F38;
+    --muted: #5A6183;
+    --gold: #A97F2E;
+    --gold-bright: #C79A45;
+    --hairline: rgba(20, 25, 55, 0.14);
+  }
+  :root[data-theme="dark"] {
+    --ground: #0A0E22;
+    --surface: #131A3A;
+    --text: #ECEBF4;
+    --muted: #A9AECC;
+    --gold: #D8B25E;
+    --gold-bright: #ECC978;
+    --hairline: rgba(216, 178, 94, 0.20);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.9;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 4.5rem;
+  }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem; }
+
+  a { color: inherit; }
+
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+    background:
+      radial-gradient(120% 90% at 50% -10%, #23306B 0%, rgba(35,48,107,0) 55%),
+      linear-gradient(180deg, var(--ink) 0%, var(--ink-2) 100%);
+    color: #EDEFFA;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(216, 178, 94, 0.28);
+  }
+  .hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,.5) 0, transparent 100%),
+      radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,.35) 0, transparent 100%),
+      radial-gradient(1px 1px at 85% 60%, rgba(255,255,255,.4) 0, transparent 100%),
+      radial-gradient(1px 1px at 35% 75%, rgba(255,255,255,.3) 0, transparent 100%),
+      radial-gradient(1.5px 1.5px at 55% 45%, rgba(255,255,255,.3) 0, transparent 100%);
+    pointer-events: none;
+  }
+  .hero .wrap { position: relative; padding-top: 3.75rem; padding-bottom: 3.5rem; text-align: center; }
+
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: .6rem;
+    font-size: .74rem; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--gold-bright);
+    border: 1px solid rgba(216, 178, 94, 0.4);
+    border-radius: 999px; padding: .45rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold-bright); }
+
+  .datemark {
+    font-family: var(--font-serif);
+    line-height: 1;
+    margin: 0 auto 1.75rem;
+  }
+  .datemark .big {
+    display: block;
+    font-size: clamp(3.6rem, 15vw, 6.2rem);
+    font-weight: 600;
+    letter-spacing: .01em;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(180deg, #F4E4B8 0%, var(--gold-bright) 70%, var(--gold) 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .datemark .sub {
+    display: block; margin-top: .6rem;
+    font-family: var(--font-sans);
+    font-size: .95rem; letter-spacing: .3em; text-transform: uppercase;
+    color: rgba(237,239,250,.72);
+  }
+
+  h1.hero-title {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: clamp(1.5rem, 4.6vw, 2.15rem);
+    line-height: 1.55;
+    letter-spacing: .01em;
+    text-wrap: balance;
+    margin: 0 0 1.5rem;
+    color: #F6F7FF;
+  }
+  h1.hero-title .accent { color: var(--gold-bright); }
+
+  .hero-lead {
+    max-width: 34rem; margin: 0 auto 2.25rem;
+    color: rgba(237,239,250,.82);
+    font-size: 1.02rem;
+  }
+
+  /* ---------- BUTTONS ---------- */
+  .cta {
+    display: inline-flex; flex-direction: column; align-items: center; gap: .3rem;
+    text-decoration: none;
+    background: linear-gradient(180deg, var(--gold-bright) 0%, var(--gold) 100%);
+    color: #241A05;
+    font-weight: 700; font-family: var(--font-sans);
+    padding: 1.05rem 2.2rem; border-radius: 12px;
+    box-shadow: 0 10px 30px -8px rgba(180, 140, 55, .55);
+    transition: transform .18s ease, box-shadow .18s ease;
+    letter-spacing: .02em;
+  }
+  .cta:hover { transform: translateY(-2px); box-shadow: 0 16px 38px -8px rgba(180, 140, 55, .6); }
+  .cta:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 3px; }
+  .cta .main { font-size: 1.08rem; }
+  .cta .seats { font-size: .78rem; font-weight: 600; letter-spacing: .12em; opacity: .82; }
+
+  .cta-note { margin-top: 1rem; font-size: .82rem; color: rgba(237,239,250,.6); letter-spacing: .04em; }
+
+  /* ---------- STORY ---------- */
+  section { padding: 3.75rem 0; }
+  .section-label {
+    font-size: .74rem; letter-spacing: .24em; text-transform: uppercase;
+    color: var(--gold); margin: 0 0 1.1rem; font-weight: 700;
+  }
+  h2 {
+    font-family: var(--font-serif);
+    font-weight: 600; letter-spacing: .01em;
+    font-size: clamp(1.35rem, 3.6vw, 1.7rem);
+    line-height: 1.6; text-wrap: balance;
+    margin: 0 0 1.75rem;
+  }
+  p { margin: 0 0 1.35rem; }
+  .story p { font-size: 1.04rem; }
+
+  .fails {
+    list-style: none; margin: 0 0 1.6rem; padding: 1.25rem 1.4rem;
+    border-left: 2px solid var(--hairline);
+    display: flex; flex-direction: column; gap: .55rem;
+    color: var(--muted); font-size: 1rem;
+  }
+  .fails li { position: relative; padding-left: 1.4rem; }
+  .fails li::before {
+    content: "×"; position: absolute; left: 0; top: 0;
+    color: var(--gold); font-weight: 700;
+  }
+
+  .pull {
+    font-family: var(--font-serif);
+    font-size: clamp(1.35rem, 4.4vw, 1.85rem);
+    line-height: 1.65; text-align: center;
+    color: var(--text);
+    margin: 2.5rem 0; padding: 2rem 0;
+    border-top: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+    text-wrap: balance;
+  }
+  .pull .zero { color: var(--gold); font-weight: 600; }
+
+  .answer {
+    font-family: var(--font-serif);
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    text-align: center; line-height: 1.6;
+    margin: 0 0 1.5rem; text-wrap: balance;
+  }
+  .answer .hl {
+    background: linear-gradient(transparent 62%, rgba(199,154,69,.32) 62%);
+    padding: 0 .1em; color: var(--gold);
+  }
+
+  .jv-badge {
+    text-align: center; margin-top: 2.5rem;
+    padding: 1.75rem; border: 1px solid var(--hairline); border-radius: 16px;
+    background: var(--surface);
+  }
+  .jv-badge .k { font-size: .78rem; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+  .jv-badge .v { font-family: var(--font-serif); font-size: 1.5rem; margin-top: .5rem; color: var(--gold); }
+
+  /* ---------- INVITATION CARD ---------- */
+  .invite-section { background: var(--ink); color: #EDEFFA; }
+  .invite-section .section-label { color: var(--gold-bright); }
+  .invite-section h2 { color: #F6F7FF; }
+  .invite-section p { color: rgba(237,239,250,.82); }
+
+  .card {
+    background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.01));
+    border: 1px solid rgba(216, 178, 94, 0.4);
+    border-radius: 18px; padding: 2rem 1.75rem;
+    margin: 2rem 0;
+  }
+  .card .crest {
+    text-align: center; font-family: var(--font-serif);
+    color: var(--gold-bright); letter-spacing: .3em; font-size: .8rem;
+    text-transform: uppercase; margin-bottom: 1.5rem;
+  }
+  .spec { display: grid; gap: 0; }
+  .spec .row {
+    display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem;
+    padding: .95rem 0; border-top: 1px solid rgba(216, 178, 94, 0.18);
+    align-items: baseline;
+  }
+  .spec .row:first-child { border-top: none; }
+  .spec .lbl { font-size: .8rem; letter-spacing: .16em; color: var(--gold-bright); }
+  .spec .val { font-size: 1.06rem; color: #F3F5FF; }
+  .spec .val .strong { font-family: var(--font-serif); font-size: 1.2rem; font-variant-numeric: tabular-nums; }
+  .spec .val small { display: block; font-size: .82rem; color: rgba(237,239,250,.6); margin-top: .15rem; }
+
+  .center { text-align: center; }
+  .cta-block { text-align: center; margin-top: 2rem; }
+
+  /* ---------- POSTSCRIPT ---------- */
+  .ps {
+    border: 1px solid var(--hairline); border-radius: 16px;
+    background: var(--surface); padding: 1.9rem 1.6rem;
+  }
+  .ps .ps-tag {
+    font-family: var(--font-serif); font-size: 1.1rem; color: var(--gold);
+    letter-spacing: .1em; margin-bottom: 1rem;
+  }
+  .ps .warn {
+    font-weight: 700; color: var(--text);
+  }
+  .sign {
+    margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--hairline);
+    font-family: var(--font-serif); text-align: right; color: var(--muted);
+  }
+  .sign .name { font-size: 1.15rem; color: var(--text); }
+
+  /* ---------- LINE FOOTER ---------- */
+  .line-foot { text-align: center; padding: 3rem 0 3.5rem; }
+  .line-foot p { color: var(--muted); font-size: .95rem; max-width: 30rem; margin: 0 auto 1.4rem; }
+  .line-btn {
+    display: inline-flex; align-items: center; gap: .55rem;
+    text-decoration: none;
+    border: 1.5px solid var(--line-green); color: var(--line-green);
+    font-weight: 700; padding: .8rem 1.6rem; border-radius: 999px;
+    transition: background .18s ease, color .18s ease;
+  }
+  .line-btn:hover { background: var(--line-green); color: #fff; }
+  .line-btn:focus-visible { outline: 3px solid var(--line-green); outline-offset: 3px; }
+  .line-btn .ico { width: 20px; height: 20px; display: inline-block; }
+
+  /* ---------- STICKY BAR ---------- */
+  .sticky {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    background: rgba(14,19,48,.94);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(216, 178, 94, 0.35);
+    padding: .7rem 1rem;
+    display: flex; justify-content: center;
+    transform: translateY(120%); transition: transform .35s ease;
+  }
+  .sticky.show { transform: none; }
+  .sticky a {
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    text-decoration: none; width: 100%; max-width: 30rem;
+    background: linear-gradient(180deg, var(--gold-bright) 0%, var(--gold) 100%);
+    color: #241A05; font-weight: 700; padding: .85rem; border-radius: 10px;
+    letter-spacing: .03em;
+  }
+  .sticky a:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+  .sticky .s-sub { font-size: .72rem; font-weight: 600; opacity: .8; }
+
+  @media (max-width: 480px) {
+    .spec .row { grid-template-columns: 5rem 1fr; gap: .75rem; }
+    .cta { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap reveal in">
+    <span class="eyebrow"><span class="dot"></span>Zoom生中継 ・ 参加費無料</span>
+
+    <div class="datemark">
+      <span class="big">7/18</span>
+      <span class="sub">Sat &nbsp; 21:00</span>
+    </div>
+
+    <h1 class="hero-title">
+      気になってはいるけれど、<br>
+      実際どうすればいいのか。<br>
+      <span class="accent">現場の生の声</span>を、直接聞ける場を用意しました。
+    </h1>
+
+    <p class="hero-lead">
+      JVや他力戦略。気にはなっているけれど、実際にどうしたらいいのか。
+      現場の生の声を聞きたい。そんな方のために、7月18日、直接その中身を聞ける環境ができました。
+    </p>
+
+    <a class="cta" href="https://pd7.jp/jv-letter-lp-j/#register">
+      <span class="main">無料で席を確保する</span>
+      <span class="seats">先着 1,000名</span>
+    </a>
+    <p class="cta-note">Zoom生中継 / 参加費無料 / 予約は1分で完了します</p>
+  </div>
+</header>
+
+<main>
+
+  <section class="story">
+    <div class="wrap">
+      <p class="section-label reveal">2012 → 2014 の話</p>
+      <h2 class="reveal">無名だった僕が、初月で125万円を売り上げた理由</h2>
+
+      <div class="reveal">
+        <p>僕がこの業界に入ったのは2012年。副業を始めた僕は、1年間なにをやってもダメでした。</p>
+
+        <ul class="fails">
+          <li>せどりで失敗</li>
+          <li>アフィリエイトで失敗</li>
+          <li>PPC広告でも失敗</li>
+        </ul>
+
+        <p>スクールに入っても、稼げない。「自分には才能がないのか」と本気で思っていました。</p>
+
+        <p>そんな僕が、2014年に初めての教育ビジネスで、初月125万円を売り上げました。</p>
+      </div>
+
+      <p class="pull reveal">
+        <span class="zero">リストゼロ。</span><br>
+        <span class="zero">実績ゼロ。</span><br>
+        <span class="zero">人脈ゼロ。</span><br>
+        その状態から、です。
+      </p>
+
+      <div class="reveal">
+        <p class="center" style="color:var(--muted)">なぜ、そんなことができたのか。</p>
+        <p class="answer">答えはたった1つ。<br><span class="hl">「格上の人に引き上げてもらった」</span>からです。</p>
+
+        <p>当時所属していた、200人規模の経営者コミュニティ。そのリーダーにお願いして、僕のノウハウを紹介してもらいました。</p>
+        <p>自分の力ではなく、その人の「信用」に乗せてもらった。だから無名の僕でも、一気に25人が申し込んでくれたんです。</p>
+      </div>
+
+      <div class="jv-badge reveal">
+        <div class="k">This is</div>
+        <div class="v">JV（ジョイントベンチャー）の力</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="invite-section">
+    <div class="wrap">
+      <p class="section-label reveal">7月18日（土）21:00</p>
+      <h2 class="reveal">このJVを、ゼロから始める<br>完全攻略ロードマップとして教えます</h2>
+      <p class="reveal">
+        このJVを「ゼロから始める完全攻略ロードマップ」として体系的に教える無料セミナーを開催します。
+        講師は、億超え仕掛人のJさん。僕が今いちばん学んでいる、他力戦略の第一人者です。
+      </p>
+
+      <div class="card reveal">
+        <div class="crest">Invitation</div>
+        <div class="spec">
+          <div class="row">
+            <div class="lbl">日時</div>
+            <div class="val"><span class="strong">7月18日（土） 21:00</span><small>Zoomでの生中継</small></div>
+          </div>
+          <div class="row">
+            <div class="lbl">講師</div>
+            <div class="val">億超え仕掛人 Jさん<small>他力戦略の第一人者</small></div>
+          </div>
+          <div class="row">
+            <div class="lbl">参加費</div>
+            <div class="val">無料</div>
+          </div>
+          <div class="row">
+            <div class="lbl">定員</div>
+            <div class="val">先着 1,000名</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-block">
+        <a class="cta" href="https://pd7.jp/jv-letter-lp-j/#register">
+          <span class="main">無料で席を確保する</span>
+          <span class="seats">先着 1,000名</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="ps reveal">
+        <div class="ps-tag">追伸</div>
+        <p><span class="warn">このセミナー、アーカイブ（録画）はありません。</span> 7月18日（土）21時、リアルタイム参加のみです。</p>
+        <p>予定を先に押さえておいてください。</p>
+        <div class="cta-block" style="margin-top:1.5rem">
+          <a class="cta" href="https://pd7.jp/jv-letter-lp-j/#register">
+            <span class="main">今すぐ席を確保する</span>
+            <span class="seats">先着 1,000名 ・ 無料</span>
+          </a>
+        </div>
+        <div class="sign">
+          <div>他力戦略で、次はあなたが引き上げられる番です。</div>
+          <div class="name">池田 宜史</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="line-foot">
+    <div class="wrap">
+      <p class="section-label" style="text-align:center">日程が合わない方へ</p>
+      <p>
+        7月18日（土）21時の日程が合わなくても大丈夫です。
+        JVや他力の使い方は、個別に相談できます。下のLINEからお気軽にご連絡ください。
+      </p>
+      <a class="line-btn" href="https://lin.ee/sRDWcW3">
+        <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 5.64 2 10.13c0 4.02 3.56 7.39 8.37 8.03.33.07.77.22.88.5.1.26.07.66.03.92l-.14.85c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.96C21.4 13.4 22 11.85 22 10.13 22 5.64 17.52 2 12 2Z"/></svg>
+        <span>LINEで相談する</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<div class="sticky" id="stickyBar">
+  <a href="https://pd7.jp/jv-letter-lp-j/#register">
+    無料で席を確保する
+    <span class="s-sub">先着1,000名・無料</span>
+  </a>
+</div>
+
+<script>
+  (function () {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+    var bar = document.getElementById('stickyBar');
+    var hero = document.querySelector('.hero');
+    var barIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { bar.classList.toggle('show', !e.isIntersecting); });
+    }, { threshold: 0 });
+    barIO.observe(hero);
+  })();
+</script>
+</body>
+</html>
